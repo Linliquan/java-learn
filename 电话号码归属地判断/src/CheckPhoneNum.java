@@ -230,7 +230,7 @@ public class CheckPhoneNum extends JFrame{
 //				return text + "\n归属地：北京";
 //			}
 //			if((text.substring(0, 3)).equals("010")||(text.substring(0, 2)).equals("10")) {
-//				return text + "\n归属地：北京";
+//				return text + "\n归属地：上海";
 //			}
 			
 			/****************************************************************************************
