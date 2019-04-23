@@ -94,7 +94,7 @@ public class CheckPhoneNum extends JFrame {
 				+ "<p>格式：如：110、120、119、122、12315、10086、10000</p>"
 				+ "<p></p>"
 				+ "<p>注意：</p>"
-				+ "<p>1.固定电话归属地查询：从本地city.txt(300多条数据)文件读取并保存到hashMap中，再进行循环判断。2.手机归属地查询：优先本地判断，本地判断不了就调用网上接口判断。（因为网上没有手机段号的数据）</p></body></html>");
+				+ "<p>1.固定电话归属地查询：从本地city.txt(300多条数据)文件读取并保存到hashMap中，再进行循环判断。</p></body></html>");
 
 		JLabel labe3 = new JLabel("软件工程 软件Q164 林李权 201609601282");
 		label.setBounds(10, 10, 700, 18);
@@ -389,67 +389,6 @@ public class CheckPhoneNum extends JFrame {
 
 				return text + "\n归属地："+province+" "+city+" "+operator;
 
-//				String httpUrl = "http://mobsec-dianhua.baidu.com/dianhua_api/open/location";
-//				String phone2 = text;
-//				String httpArg = "tel=" + phone2;
-//
-//
-//				String jsonResult1 = request(httpUrl, httpArg);
-//
-//				if (jsonResult1 == null) {
-//					System.out.println("请连接网络后重新查询！");
-//					return text + "\n请连接网络后重新查询！";
-//				} else {
-//					System.out.println(jsonResult1);
-//				}
-//
-//
-//				JSONObject obj = JSONObject.fromObject(jsonResult1);
-////          String location = obj.getString("location");
-////         System.out.println(location);
-////          String errMsg = obj.getString("errMsg");
-////          System.out.println(errMsg);
-//				String response = obj.getString("response");
-//				System.out.println(response);
-//
-//				JSONObject obj2 = JSONObject.fromObject(response);
-//				String phone = obj2.getString(phone2);
-//				System.out.println(phone);
-//
-//				JSONObject obj3 = JSONObject.fromObject(obj2.getString(phone2));
-//				String location = obj3.getString("location");
-//
-//				System.out.println(location);
-//
-//				System.out.println("归属地：" + location);
-
-
-
-//				//待补充
-//				System.out.println("电话号码："+text+"  移动");
-//				return text + "\n移动";
-//			}
-//
-//			//联通号码归属地
-//			String regexCu = "^1(3[0-2]|5[5,6]|8[5,6]|4[5]|7[6])\\d{4,8}$";
-//			if(text.matches(regexCu)){
-//
-//				//待补充
-//				System.out.println("电话号码："+text+"  联通");
-//				return text + "\n联通";
-//			}
-//
-//			//电信号码归属地
-//			String regexCt = "^1(3[3]|5[3]|7[3|7]|8[0|1|9])\\d{4,8}$";
-//			if(text.matches(regexCt)){
-//
-//				//待补充
-//				System.out.println("电话号码："+text+"  电信");
-//				return text + "\n电信";
-//			}
-
-//				return text + "\n归属地："+location;
-//				return text + "\n请输入正确的电话号码！";
 			} else {
 				return text + "\n请输入正确的电话号码！";
 
