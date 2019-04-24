@@ -377,6 +377,10 @@ public class CheckPhoneNum extends JFrame {
 //          System.out.println(province);
 //          System.out.println(operator);
 
+//          System.out.println(province);
+//          System.out.println(operator);
+
+
 				JSONArray obj5 =  JSONArray.fromObject(area);
 				System.out.println(obj5.getJSONArray(0).get(0));
 
