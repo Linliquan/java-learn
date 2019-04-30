@@ -1,0 +1,32 @@
+/*@charset "utf-8"*/
+a:link {
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+}
+a:visited {
+	color: #0FE;
+	text-decoration: none;
+}
+a:hover {
+	color: #900;
+	font-size: larger;
+	text-decoration: underline;
+}
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+div#div11 {
+overflow: auto;
+}
+.div11ul {
+	padding-left: 0px;
+	list-style-type: none;
+	margin-left: 0px;
+}
+.div11ul li {
+	line-height: 20pt;
+	display: inline;
+	padding: 4px;
+}

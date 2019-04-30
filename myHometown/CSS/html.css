@@ -1,0 +1,124 @@
+/*@charset "utf-8"*/
+a:link {
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #900;
+	font-size: larger;
+	text-decoration: underline;
+}
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+div#container {
+	width: 1080px;
+	margin: auto;
+}
+div#header {
+	background-image: url(../images/mycity.jpg);
+	height: 150px;
+    width: 100%;
+    background-size: 100%; 
+}
+div#navigate {
+	background-color: #B9B9FF;
+	width: 1080px;
+	text-align: center;
+	float: left;
+}
+.navstyle {
+	margin: 4px;
+	list-style-type: none;
+}
+.navstyle li {
+	line-height: 20pt;
+	display: inline;
+	padding: 4px;
+}
+div#menu {
+	background-color: #4DFFFF;
+	width: 172px;
+	height: 520px;
+	text-align: center;
+	float: left;
+}
+.menustyle {
+	padding-left: 0px;
+	list-style-type: none;
+	margin-left: 0px;
+}
+.menustyle li {
+	line-height: 24pt;
+}
+h2 {
+	margin-bottom: 4px;
+	font-size: 18pt;
+}
+div#content1 {
+	width: 596px;
+	height: 408px;
+	float: left;
+	padding: 16px;
+}
+div#content {
+	background-color: white;
+	width: 876px;
+	height: 468px;
+	float: left;
+	padding: 16px;
+}
+div#sss {
+	width: 500px;
+	height: 300px;
+	float: left;
+	padding: 16px;
+}
+div#footer {
+	background-color: #d3effc;
+	line-height: 24px;
+	text-align: center;
+	clear: left;
+}
+div#div1 {
+	float: left;
+}
+.ftcss2 {
+	font-family: 宋体,sans-serif;
+	font-size: 12pt;
+	color: #0011aa;
+	text-align: left;
+	text-indent: 2em;
+	line-height: 1.6;
+}
+.bold {
+	font-weight: 600;
+}
+.itanlic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+.bgtest {
+	line-height: 28px;
+	padding-left: 24px;
+}
+ul {
+	padding-left: 48px;
+	line-height: 32px;
+}
+
+body {
+    background-image: url(../images/findpicture.jpg);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100%;  
+}
