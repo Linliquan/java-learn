@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>软件开发基础课程期末考查题</title>
+	<embed src="music/曲婉婷%20-%20Jar%20Of%20Love.mp3" hidden="true" autostart="true"/>
+			<style>
+		td div {
+			font-size: 12px;
+		}
+		a:link {
+			text-decoration: none;
+		}
+	</style>
+	<script language="javascript" src="JS/validate.js"></script>
+	<script language="javascript">
+		function $(id) {
+			return document.getElementById(id);
+		}
+		function chkPasswords() {
+			var re = new RegExp(/^[a-zA-Z]\w{5,23}$/);
+			if (!re.test($("password").value)) {
+				$("passwordPrompt").style.color = "red";
+				$("passwordPrompt").innerHTML = "*必须为英文、数字、下划线，且长度在6~24个字符！";
+				return false;
+		}
+		else {
+			$("passwordPrompt").style.color = "black";
+			$("passwordPrompt").innerText = "*";
+		}
+	}
+		function chkPasswords2() {
+		if ($("password").value!=$("password2").value) {
+				$("password2Prompt").style.color = "red";
+				$("password2Prompt").innerHTML = "*两次密码输入不一致！";
+				return false;
+		}
+		else {
+			$("password2Prompt").style.color = "black";
+			$("password2Prompt").innerText = "*";
+		}
+		return true;
+	}
+	function chkUsername() {
+		if (isBlank($("username").value)) {
+				$("usernamePrompt").style.color = "red";
+				$("usernamePrompt").innerHTML = "*用户名必须填写！";
+				return false;
+		}
+		else {
+			$("usernamePrompt").style.color = "black";
+			$("usernamePrompt").innerText = "*";
+		}
+		var re = new RegExp(/^[a-zA-Z]\w{3,15}$/);
+		if (!re.test($("username").value)) {
+				$("usernamePrompt").style.color = "red";
+				$("usernamePrompt").innerText = "*只能以英文开头,4~16个英文、数字或下划线字符！";
+				return false;
+		}
+		else {
+			$("usernamePrompt").style.color = "black";
+			$("usernamePrompt").innerText = "*";
+		}
+		return true;
+	}
+	function chkIdnum() {
+		if (!isBlank($("idnum").value)) {
+			if (!isIdcardNum($("idnum").value)) {
+				$("idnumPrompt").style.color = "red";
+				$("idnumPrompt").innerText = "身份证号码格式不正确！";
+				return false;
+			}
+		}
+		$("idnumPrompt").style.color = "black";
+		$("idnumPrompt").innerText = "";
+		return true;
+	}
+	function chkPhonenum() {
+		if (!isBlank($("phonenum").value)) {
+			if (!isPhoneNum($("phonenum").value)) {
+				$("phonenumPrompt").style.color = "red";
+				$("phonenumPrompt").innerText = "电话号码格式不正确！";
+				return false;
+			}
+		}
+		$("phonenumPrompt").style.color = "black";
+		$("phonenumPrompt").innerText = "";
+		return true;
+	}
+    function chkEmail() {
+		if (!isBlank($("email").value)) {
+			if (!isEmail($("email").value)) {
+				$("emailPrompt").style.color = "red";
+				$("emailPrompt").innerText = "*电子邮箱格式不正确！";
+				return false;
+			}
+		}
+		$("emailPrompt").style.color = "black";
+		$("emailPrompt").innerText = "";
+		return true;
+	}
+	function chkAll() {
+		var msg = "";
+		if (!chkUsername($("#username").value)) {
+			msg += "用户名输入不正确！\n";
+		}
+		if (!chkPasswords($("#password").value)) {
+			msg += "密码输入不正确！\n";
+		}
+		if (msg != "") {
+			msg = msg.substr(0,msg.length-1);
+			alert(msg);
+			return false;
+		}
+		return true;
+	}
+	</script>
+	<link rel="stylesheet" type="text/css" href="CSS/Css.css"/>
+</head>
+<body>
+	<div id="container">
+	<div id="header"><div id="htitle"></div>
+		<div id="my_introduces">
+			<h2>个人简介：</h2>
+			<p>1.喜欢java，熟练掌握JAVA基础，集合以及常用设计模式。熟悉SSM、SpringBoot 等主流框架。</p>
+			<p>2.两年获得国家励志奖学金。 </p>
+			<p>3.项目：轻语音乐网，github地址：https://github.com/Linliquan/springboot-music </p>
+		</div>
+	</div>
+	<div id="navigate">
+	<ul class="navstyle">
+		<li><a href="index.html">首页</a></li>
+		<li><a href="customs.html">风俗</a></li>
+		<li><a href="food.html">美食</a></li>
+		<li><a href="school.html">学校</a></li>
+		<li><a href="interest.html">兴趣爱好</a></li>
+		<li><a href="travel.html">旅游景点</a></li>
+		<li><a href="register.html">注册</a></li>
+		<li><a href="login.html">登录</a></li>
+	</ul>
+	</div>
+	<div id="menu">
+		<h2>我的家乡</h2>
+		<ul class="menustyle">
+	    <li><a href="index.html">首页</a></li>
+		<li><a href="customs.html">风俗</a></li>
+		<li><a href="food.html">美食</a></li>
+		<li><a href="school.html">学校</a></li>
+		<li><a href="interest.html">兴趣爱好</a></li>
+		<li><a href="travel.html">旅游景点</a></li>
+		<li><a href="register.html">注册</a></li>
+		<li><a href="login.html">登录</a></li>
+	</ul>
+	</div>
+	<div id="content" style="background-image: url(images/bklogin2.gif);height: 468px;width: 876px;overflow: hidden;background-size: 102%">
+		<h3 align="center" style="color: yellow">用户登录</h3>
+	<div>
+    <form id="myForm" action="" onsubmit="return chkAll();">
+		<table cellpadding="6" width="656">
+			<p style="color: blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户登录信息：</p>
+			<tr>
+				<td width="100" align="right" style="color: #E6f">用户名：</td>
+				<td width="147"><input type="text" name="text" id="username" size="21" onblur="chkUsername();"/></td>
+				<td><div id="usernamePrompt" style="color: white">您以前创建的账户</div></td>
+			</tr>
+			<tr>
+				<td align="right" style="color: #E6f">密码：</td>
+				<td><input type="password" name="password" size="21" id="password" onblur="chkPasswords();"/></td>
+				<td><div id="passwordPrompt" onclick="restart()"><b style="color: red">忘记密码请点这里!</b></a></div></td>
+			</tr>
+			<tr>
+				<td align="right">&nbsp;</td>
+				<td align="center"><input type="submit" name="submit" value="提交" />&nbsp;&nbsp;
+					<input type="reset" name="reset" value="重置"/><td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+</form>
+		</div>
+	</div>
+	<div id="footer">2018-2019-2 学期 软件工程 林李权 201609601282 软件Q164 HTML5课程设计</div>
+	</div>
+	<script type="text/javascript">
+		function restart(){
+			document.getElementById("passwordPrompt")
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+  #bodies{
+    width: 860px;
+	height: 360px;
+	float: left;
+	padding: 16px;
+	overflow: auto;
+     }
+     .gallery{
+      list-style: none;
+      width: 800px;
+      height: 350px; /* (200+10+4)x3 */
+      font-size: 0; /* fix inline-block spacing */
+    }
+
+    .gallery li{
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 255px; height: 150px;
+        margin: 2px;
+        border: 2px solid #19E;
+        -moz-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+        -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+        box-shadow: 0 2px 2px rgba(0,0,0,.1);
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;        
+    }
+
+    .gallery:hover li:not(:hover){       
+        -webkit-filter: blur(2px) grayscale(1);
+        -moz-filter: blur(2px) grayscale(1);
+        -o-filter: blur(2px) grayscale(1);
+        -ms-filter: blur(2px) grayscale(1);
+        filter: blur(2px) grayscale(1);
+        opacity: .7; /* fallback */        
+    }
+
+    /* Demo page only */
+    #about{
+        color: #999;
+        text-align: center;
+        font: 0.9em Arial, Helvetica;
+    }
+
+    #about a{
+        color: #777;
+    }   
+  
