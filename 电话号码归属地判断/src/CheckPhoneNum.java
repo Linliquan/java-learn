@@ -324,13 +324,14 @@ public class CheckPhoneNum extends JFrame {
 
 
 			/**
-			 * 移动号码归属地
+			 * 判断是否是手机号
 			 * 	依据前面3位判断运营商，4~7位判断手机号的地区
 			 */
-			String regexCm = "^1(3[4-9]|4[7]|5[0|1|2|7|8|9]|7[8]|8[2|3|4|7|8])\\d{4,8}$";
+//			String regexCm = "^1(3[4-9]|4[7]|5[0|1|2|7|8|9]|7[8]|8[2|3|4|7|8])\\d{4,8}$";
+			String regexCm = "^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|17[3|6|7|8]|18[0|1|2|3|4|5|6|7|8|9])\\d{8}$";
 			if (text.matches(regexCm)) {
 
-				if((text.substring(3, 7)).equals("5785")) {
+				if((text.substring(0, 7)).equals("1345785")) {
 					System.out.println("电话号码："+text+"  归属地：广西 南宁(移动)");
 					return text + "\n归属地：广西   南宁 (移动)";
 				}
@@ -377,8 +378,7 @@ public class CheckPhoneNum extends JFrame {
 //          System.out.println(province);
 //          System.out.println(operator);
 
-//          System.out.println(province);
-//          System.out.println(operator);
+
 
 
 
