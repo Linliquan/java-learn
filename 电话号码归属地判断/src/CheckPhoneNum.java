@@ -376,6 +376,12 @@ public class CheckPhoneNum extends JFrame {
 				String operator = obj4.getString("operator");
 
 //          System.out.println(province);
+//          System.out.println(province);
+//          System.out.println(province);
+//          System.out.println(province);
+//          System.out.println(province);
+//          System.out.println(province);
+
 
 
 
