@@ -66,7 +66,6 @@ public class CheckPhoneNum extends JFrame {
 		});
 	}
 
-
 	public CheckPhoneNum() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -289,6 +288,12 @@ public class CheckPhoneNum extends JFrame {
 			return text + "\n消费者申诉举报";
 		}
 
+
+		/**
+		 * 	固定电话匹配，如0771-86245687、077186245687、771-86245687、77186245687、010-52365215、13457852366、1345785
+		 * 	7~12位数字可通过此正则表达式
+		 * 	正则表达式
+		 */
 
 		/**
 		 * 	固定电话匹配，如0771-86245687、077186245687、771-86245687、77186245687、010-52365215、13457852366、1345785
