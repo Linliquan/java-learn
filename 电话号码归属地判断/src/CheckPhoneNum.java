@@ -385,6 +385,10 @@ public class CheckPhoneNum extends JFrame {
 //          System.out.println(province);
 //          System.out.println(province);
 //          System.out.println(province);
+//          System.out.println(province);
+//          System.out.println(province);
+//          System.out.println(province);
+//          System.out.println(province);
 
 
 
