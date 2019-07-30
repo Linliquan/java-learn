@@ -2,7 +2,7 @@ package com.冒泡排序;
 
 public class Dubble {
 
-    //冒泡排序
+    //冒泡排序:每一趟排序总是把最大的移动到末尾
     public static int [] bubbleSort(int [] array){
         if (array.length == 0){
             return array;
@@ -21,7 +21,7 @@ public class Dubble {
     }
 
     public static void main(String[] args) {
-      int [] a = {2,5,1,8,4,9,2};
+      int [] a = {2,5,1,8,7,4,9,2};
       bubbleSort(a);
 
       for(int i: a){
