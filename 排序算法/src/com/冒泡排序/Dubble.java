@@ -23,6 +23,7 @@ public class Dubble {
     public static void main(String[] args) {
       int [] a = {2,5,1,8,4,9,2};
       bubbleSort(a);
+
       for(int i: a){
           System.out.print(i+" ");
       }
