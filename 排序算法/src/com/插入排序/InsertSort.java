@@ -44,4 +44,13 @@ public class InsertSort {
             System.out.print(i+" ");
         }
     }
+
+//    public static void main(String[] args) {
+//        int [] a = {3,1,5,7,2,4,9,6};
+//        insertSort(a);
+//
+//        for(int i: a){
+//            System.out.print(i+" ");
+//        }
+//    }
 }
