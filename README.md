@@ -1,2 +1,2 @@
 # java-learn
-## java学习相关
+## java相关的项目以及日常编程练习的小demo
