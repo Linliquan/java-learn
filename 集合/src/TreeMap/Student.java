@@ -1,29 +1,14 @@
-package HashSet;
+package TreeMap;
 
-public class Student {
+import java.util.Comparator;
+
+public class Student implements Comparable<Student> {
     private int id;
     private String name;
 
     public Student() {
     }
 
-    @Override
-    public int hashCode() {
-        return id;
-    }
-
-
-//    @Override
-//    public int hashCode() {
-//        return super.hashCode();
-//    }
-
-    @Override
-    public boolean equals(Object obj) {
-        System.out.println("..."+obj.getClass());
-        Student s = (Student) obj;
-        return s.name.equals(this.name);
-    }
 
     public Student(int id, String name) {
         this.id = id;
@@ -54,9 +39,12 @@ public class Student {
                 '}';
     }
 
-    //反射测试
-    public String show(int num){
-        System.out.println("num="+num);
-        return "hello";
+    /**
+     * 自然排序
+     *
+     */
+    @Override
+    public int compareTo(Student o) {
+        return 0;
     }
 }
