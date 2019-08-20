@@ -9,20 +9,12 @@ public class Student {
 
     @Override
     public int hashCode() {
-        return id;
+        return super.hashCode();
     }
-
-
-//    @Override
-//    public int hashCode() {
-//        return super.hashCode();
-//    }
 
     @Override
     public boolean equals(Object obj) {
-        System.out.println("..."+obj.getClass());
-        Student s = (Student) obj;
-        return s.name.equals(this.name);
+        return super.equals(obj);
     }
 
     public Student(int id, String name) {
@@ -54,9 +46,4 @@ public class Student {
                 '}';
     }
 
-    //反射测试
-    public String show(int num){
-        System.out.println("num="+num);
-        return "hello";
-    }
 }
