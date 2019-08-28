@@ -10,19 +10,20 @@ public class Select {
         for (int i = 0; i < array.length ; i++) {
             int mixIndex = i;
             for (int j = i; j < array.length; j++) {
-                if (array[j] < array[i]){
+                if (array[j] < array[mixIndex]){
                     mixIndex = j;
                 }
-                int temp = array[i];
-                array[i] = array[mixIndex];
-                array[mixIndex] = temp;
             }
+            int temp = array[i];
+            array[i] = array[mixIndex];
+            array[mixIndex] = temp;
+
         }
         return array;
     }
 
     public static void main(String[] args) {
-        int [] a = {2,5,1,8,4,9,2};
+        int [] a = {2,5,1,8,4,9,2,7};
         SelectSort(a);
 
         for(int i: a){
