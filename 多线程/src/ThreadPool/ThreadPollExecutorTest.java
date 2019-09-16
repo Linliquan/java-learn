@@ -6,15 +6,15 @@ import java.util.concurrent.*;
 public class ThreadPollExecutorTest {
     public static void main(String[] args) {
         //创建线程池
-       // ExecutorService executorService = Executors.newFixedThreadPool(10);
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
 
-        ScheduledThreadPoolExecutor scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(5);
+       // ScheduledThreadPoolExecutor scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(5);
 
         ThreadPool threadPool = new ThreadPool();
         for (int i = 0; i < 3; i++) {
             //为线程池分配任务
-            scheduledThreadPoolExecutor.submit(threadPool);
+            executorService.submit(threadPool);
         }
-        scheduledThreadPoolExecutor.shutdown();
+        executorService.shutdown();
     }
 }
