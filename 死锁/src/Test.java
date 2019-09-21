@@ -11,11 +11,12 @@ public class Test {
     //锁B
     public static Object B = new Object();
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         T1 t1 = new T1();
         T2 t2 = new T2();
         t1.start();
-        t2.start();
+
+        t2.start(); //{a b c d}复制字符串到字符串数组，一个一个字符复制，
     }
 
 }
