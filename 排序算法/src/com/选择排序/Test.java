@@ -5,6 +5,7 @@ public class Test {
     public static void main(String[] args) {
         int [] a = {2,6,2,7,1,4,9,3};
 
+
         for (int i = 0; i < a.length; i++) {
             int mix = i;
             for (int j = i+1; j < a.length; j++) {
