@@ -7,9 +7,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ABC_Sync {
     //多线程下三个线程循环打印ABC十遍，如ABCABCABC...
 
-   // private static Lock lock = new ReentrantLock();
 
-    //法一
+    //法一,使用state
     private static int state = 0;
 
     static class A extends Thread{
@@ -17,7 +16,7 @@ public class ABC_Sync {
         public void run() {
 
             for (int i = 0; i < 10; ) {
-
+                //不能用if
                 while (state %3 == 0){
                     System.out.print("A");
                     state++;
