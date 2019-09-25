@@ -1,10 +1,11 @@
 package HashSet;
 
-import javax.swing.text.html.HTMLDocument;
+
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
+
 
 //
 public class Test2 {
@@ -19,9 +20,19 @@ public class Test2 {
         hashSet.add(5);
         hashSet.add(5);
 
-        Iterator iterator = hashSet.iterator();
+//        Iterator iterator = hashSet.iterator();
+//
+//        System.out.println(hashSet);
 
-        System.out.println(hashSet);
+        //法一
+        Iterator<Integer> iterator = hashSet.iterator();
+        while (iterator.hasNext()) {
+            System.out.println( iterator.next());
+        }
+        
+
+
+
 
     }
 }
