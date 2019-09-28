@@ -20,7 +20,7 @@ class MyThread1 extends Thread{
     
     @Override
     public void run(){
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 10000; i++) {
             System.out.println(Thread.currentThread().getName()+" "+i);
         }
     }
@@ -30,7 +30,7 @@ class MyThread2 extends Thread{
 
     @Override
     public void run(){
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 10000; i++) {
             System.out.println(Thread.currentThread().getName()+" "+i);
         }
     }
