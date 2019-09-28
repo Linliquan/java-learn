@@ -1,3 +1,5 @@
+package t1;
+
 import java.util.Stack;
 
 public class Test {
@@ -8,13 +10,13 @@ public class Test {
 
         for (int i = 0; i < a.length; i++) {
             stack.push(a[i]);
-
         }
 
         for (int i = 0; i < a.length; i++) {
             System.out.print(stack.pop()+" ");
 
         }
+
 
     }
 }
