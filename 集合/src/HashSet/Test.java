@@ -9,7 +9,8 @@ import java.util.Set;
 public class Test {
     public static void main(String[] args) {
         HashSet s1 = new HashSet();
-
+        int a = 2_3;
+        System.out.println(a);
         //
         s1.add("tom");
         s1.add(23);
