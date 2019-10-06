@@ -1,5 +1,7 @@
 package ConcurrentHashMap;
 
+
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Test {
@@ -14,5 +16,17 @@ public class Test {
         for (Integer key : concurrentHashMap.keySet()){
             System.out.println(key+" "+concurrentHashMap.get(key));
         }
+
+        //法一
+        for(Integer key : concurrentHashMap.keySet()){
+            System.out.println("输出键值对："+key+" "+concurrentHashMap.get(key));
+        }
+
+        //法二：
+        for(Map.Entry<Integer,String> entry: concurrentHashMap.entrySet()){
+            System.out.println(entry.getKey()+" "+entry.getValue());
+        }
+
+
     }
 }
