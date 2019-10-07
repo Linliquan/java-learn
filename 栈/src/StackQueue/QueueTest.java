@@ -24,7 +24,6 @@ public class QueueTest {
         return stack2.pop();
     }
 
-
     public static void main(String[] args) {
         QueueTest queue = new QueueTest();
         queue.push(1);
