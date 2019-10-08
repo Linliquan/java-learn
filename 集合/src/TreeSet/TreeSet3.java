@@ -28,6 +28,5 @@ public class TreeSet3 {
         while (iterator.hasNext()){
             System.out.print(iterator.next()+" ");
         }
-
     }
 }
