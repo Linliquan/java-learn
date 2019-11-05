@@ -12,7 +12,6 @@ public class Test {
         for (int i = 0; i < a.length; i++) {
             a[i] = sc.nextInt();
         }
-
         System.out.println(8);
 
     }
