@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.apps.cms.dao.extend.BasePrivilegeExtendMapper">
+  <select id="selectAll" resultMap="PrivilegeTreeResultMap">
+    SELECT *
+    FROM base_privilege
+    WHERE parent_id is null
+  </select>
+
+  <select id="selectByParentId" resultType="com.briup.apps.cms.bean.BasePrivilege">
+    SELECT *
+    FROM base_privilege
+    WHERE parent_id = #{id,jdbcType=BIGINT}
+  </select>
+
+  <select id="selectByRoleId" resultType="com.briup.apps.cms.bean.BasePrivilege">
+    SELECT p.*
+    from base_privilege p, base_role r, base_role_privilege rp
+    WHERE rp.role_id = r.id
+    AND rp.privilege_id = p.id
+    AND r.id = #{id,jdbcType=BIGINT}
+  </select>
+
+  <select id="selectByUserId" resultType="com.briup.apps.cms.bean.BasePrivilege">
+    select p.*
+    from base_user u ,base_user_role ur, base_role r, base_role_privilege rp ,base_privilege p
+    where u.id = ur.user_id
+    and r.id = ur.role_id
+    and rp.role_id = r.id
+    and rp.privilege_id = p.id
+    and u.id = #{id,jdbcType=BIGINT}
+  </select>
+
+  <resultMap id="PrivilegeTreeResultMap" type="com.briup.apps.cms.vm.PrivilegeTree" extends="com.briup.apps.cms.dao.BasePrivilegeMapper.BaseResultMap">
+    <collection property="children" column="id" select="selectByParentId"></collection>
+  </resultMap>
+
+</mapper>
