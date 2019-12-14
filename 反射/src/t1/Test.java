@@ -1,7 +1,7 @@
+package t1;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Test {
     public static void main(String[] args) throws Exception {
@@ -37,7 +37,6 @@ public class Test {
         Student student = s.newInstance();
         Object invole = method.invoke(student,30);
         System.out.println(invole);
-
 
 
 
