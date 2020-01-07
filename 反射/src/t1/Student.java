@@ -1,6 +1,8 @@
+package t1;
+
 public class Student {
     private int id;
-    private String name;
+    private String name ;
 
     public Student() {
     }
