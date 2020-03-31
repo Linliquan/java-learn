@@ -20,7 +20,7 @@ public class Test {
         if (1 != 2){
             System.out.println("阿斯蒂芬");
         }else {
-            System.out.println("哈哈");
+            System.out.println("哈哈 github");
         }
 
 
