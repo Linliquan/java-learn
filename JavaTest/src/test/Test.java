@@ -47,6 +47,15 @@ public class Test {
             System.out.println(key + " "+ hashMap.get(key));
         }
 
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        if (list.contains(5)){
+            System.out.println("哈哈哈哈HHH");
+        }
+
 
 
 
