@@ -5,6 +5,7 @@ public class Test {
          Test test = new Test();
          test.f1.show();
          String a = "235";
+         String b = "236";
          a.substring(1,2);
         String[] strArray={"1","2","3"};
         String [] c = new String[8];
