@@ -1,5 +1,6 @@
 package atomic.t1;
 
+//a++ 非原子性测试
 public class Test {
     static int  a = 0;
 
