@@ -1,8 +1,8 @@
 package atomic.t2;
 
-
+//a++非原子性测试
 public class Test {
-   public static int  a = 0;
+   public static volatile int  a = 0;
 
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(new MyThread1());
