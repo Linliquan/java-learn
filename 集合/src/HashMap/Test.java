@@ -20,7 +20,9 @@ public class Test {
 
         System.out.println( hashMap.get("10"));
 
+        for(Object o : hashMap.keySet()){
 
+        }
 
         //遍历map
         Set keySet = hashMap.keySet();
