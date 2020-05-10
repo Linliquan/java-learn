@@ -12,7 +12,6 @@ public class Test {
         t1.join();
         t2.join();
         System.out.println(a);
-        System.out.println(a);
     }
 }
 class MyThread1 implements Runnable{
