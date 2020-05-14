@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author zhouli
+ * @author linliquan
  */
 @RequestMapping("/movies")
 @RestController
