@@ -1,0 +1,11 @@
+server:
+  port: 8761
+eureka:
+  client:
+    # 是否要注册到其他Eureka Server实例
+    register-with-eureka: true
+    # 是否要从其他Eureka Server实例获取数据
+    fetch-registry: true
+    service-url:
+      defaultZone: http://server-discovery:8761/eureka/
+
