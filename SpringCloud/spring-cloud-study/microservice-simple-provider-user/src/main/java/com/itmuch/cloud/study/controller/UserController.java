@@ -16,11 +16,11 @@ import java.util.Optional;
 @RequestMapping("/users")
 @RestController
 public class UserController {
-  @Autowired
-  private UserRepository userRepository;
+    @Autowired
+    private UserRepository userRepository;
 
-  @GetMapping("/{id}")
-  public Optional<User> findById(@PathVariable Long id) {
-    return this.userRepository.findById(id);
-  }
+    @GetMapping("/{id}")
+    public Optional<User> findById(@PathVariable Long id) {
+        return this.userRepository.findById(id);
+    }
 }
