@@ -10,9 +10,9 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
-  private Long id;
-  private String username;
-  private String name;
-  private Integer age;
-  private BigDecimal balance;
+    private Long id;
+    private String username;
+    private String name;
+    private Integer age;
+    private BigDecimal balance;
 }
