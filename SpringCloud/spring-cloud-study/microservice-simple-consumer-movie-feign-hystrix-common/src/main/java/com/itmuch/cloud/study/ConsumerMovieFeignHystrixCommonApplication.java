@@ -11,8 +11,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @SpringBootApplication
 @EnableCircuitBreaker
-public class ConsumerMovieFeignHystrixApplication {
+public class ConsumerMovieFeignHystrixCommonApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerMovieFeignHystrixApplication.class, args);
+        SpringApplication.run(ConsumerMovieFeignHystrixCommonApplication.class, args);
     }
 }
