@@ -9,6 +9,6 @@
 	<packaging>pom</packaging>
 	<version>1.0</version>
 	<modules>
-		<module>eureka</module>
+		<module>microservice-discovery-eureka</module>
 	</modules>
 </project>
