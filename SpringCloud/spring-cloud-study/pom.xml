@@ -10,5 +10,6 @@
 	<version>1.0</version>
 	<modules>
 		<module>microservice-discovery-eureka</module>
+		<module>microservice-hystrix-turbine</module>
 	</modules>
 </project>
