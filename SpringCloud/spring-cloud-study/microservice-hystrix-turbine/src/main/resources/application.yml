@@ -1,0 +1,29 @@
+server:
+  port: 8032
+spring:
+  application:
+    name: microservice-hystrix-turbine
+
+#这样，Tubine即可聚合microservice-consumer-movie,
+#microservice-consumer-movie-feign两个服务的/actuator/hystrix.stream 信息，
+#并暴露在http://localhost:8031/turbine.stream ，将该地址贴到Hystrix Dashboard上，即可看到类似的图表：
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+turbine:
+  # 要监控的微服务列表，多个用,分隔
+  app-config: microservice-consumer-movie,microservice-consumer-movie-feign
+  cluster-name-expression: "'default'"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'hystrix.stream'
+
+
+
+
