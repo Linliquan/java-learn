@@ -41,6 +41,18 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+        <!--Feign默认已经整合了Hystrix，但这个整合其实是“不完整”，
+        因为它默认不带有监控端点，如果你在使用Feign的同时，也想使用监控端点，需要加依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
+        <!-- Hystrix Dashboard 将文字形式的监控数据转换成图表展示-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+        </dependency>
 
     </dependencies>
 
