@@ -1,0 +1,41 @@
+server:
+  port: 8020
+spring:
+  application:
+    # 指定注册到eureka server上的服务名称
+    name: microservice-consumer-movie-feign
+
+eureka:
+  client:
+    service-url:
+      # 指定eureka server通信地址，注意/eureka/小尾巴不能少
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    # 是否注册IP到eureka server，如不指定或设为false，那就会注册主机名到eureka server
+    prefer-ip-address: true
+
+logging:
+  level:
+    com.itmuch.cloud.study.user.feign.UserFeignClient: debug
+
+# 从Spring Cloud Edgware开始，Feign支持使用属性自定义Feign
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000  # 相当于Request.Options
+        readTimeout: 5000     # 相当于Request.Options
+  # 开启服务降级
+  hystrix:
+    enabled: true
+#        # 配置Feign的日志级别，相当于代码配置方式中的Logger
+#        loggerLevel: full
+#        # Feign的错误解码器，相当于代码配置方式中的ErrorDecoder
+#        errorDecoder: com.example.SimpleErrorDecoder
+#        # 配置重试，相当于代码配置方式中的Retryer
+#        retryer: com.example.SimpleRetryer
+#        # 配置拦截器，相当于代码配置方式中的RequestInterceptor
+#        requestInterceptors:
+#          - com.example.FooRequestInterceptor
+#          - com.example.BarRequestInterceptor
+#        decode404: false
