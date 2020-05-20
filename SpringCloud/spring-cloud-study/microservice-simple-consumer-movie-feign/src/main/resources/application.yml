@@ -18,6 +18,13 @@ logging:
   level:
     com.itmuch.cloud.study.user.feign.UserFeignClient: debug
 
+# 为了整合turbine监控数据
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'hystrix.stream'
+
 # 从Spring Cloud Edgware开始，Feign支持使用属性自定义Feign
 feign:
   client:
