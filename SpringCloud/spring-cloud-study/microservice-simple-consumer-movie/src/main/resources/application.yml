@@ -13,3 +13,10 @@ eureka:
   instance:
     # 是否注册IP到eureka server，如不指定或设为false，那就会注册主机名到eureka server
     prefer-ip-address: false
+
+# 为了整合turbine监控数据
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'hystrix.stream'
