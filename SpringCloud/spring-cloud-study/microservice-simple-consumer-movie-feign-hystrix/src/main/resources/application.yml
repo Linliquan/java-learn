@@ -39,3 +39,10 @@ feign:
 #          - com.example.FooRequestInterceptor
 #          - com.example.BarRequestInterceptor
 #        decode404: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'hystrix.stream'
+
