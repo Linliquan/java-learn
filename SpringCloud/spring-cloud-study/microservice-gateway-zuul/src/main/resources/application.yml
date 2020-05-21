@@ -17,4 +17,6 @@ management:
     health:
       show-details: always
 
-
+zuul:
+  routes:
+    microservice-provider-user: /user/**
