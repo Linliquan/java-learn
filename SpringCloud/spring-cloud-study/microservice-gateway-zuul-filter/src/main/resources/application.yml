@@ -1,0 +1,22 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+zuul:
+  routes:
+    microservice-provider-user: /user/**
