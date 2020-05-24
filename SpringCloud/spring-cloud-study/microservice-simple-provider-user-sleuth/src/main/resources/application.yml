@@ -7,6 +7,12 @@ spring:
   jpa:
     # 让hibernate打印执行的SQL
     show-sql: true
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 采样率，模式0.1，也就是10%，为了便于观察效果，改为1.0，也就是100%。生产环境建议保持默认。
+      probability: 1.0
 logging:
   level:
     root: INFO
