@@ -1,0 +1,15 @@
+server:
+  port: 8041
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          # Git仓库地址
+          uri: https://git.oschina.net/itmuch/spring-cloud-config-repo.git
+          # Git仓库账号
+          username:
+          # Git仓库密码
+          password:
