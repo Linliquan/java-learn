@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.itmuch.cloud.study.entity.User;
 
 /**
- * @author zhouli
+ * @author linliquan
  */
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
