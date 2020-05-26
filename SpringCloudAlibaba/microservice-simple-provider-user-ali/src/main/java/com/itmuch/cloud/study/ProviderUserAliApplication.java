@@ -5,6 +5,7 @@ import com.itmuch.cloud.study.repository.UserRepository;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 
 import java.math.BigDecimal;
@@ -13,6 +14,7 @@ import java.util.stream.Stream;
 /**
  * @author zhouli
  */
+@EnableDiscoveryClient
 @SpringBootApplication
 public class ProviderUserAliApplication {
     public static void main(String[] args) {
