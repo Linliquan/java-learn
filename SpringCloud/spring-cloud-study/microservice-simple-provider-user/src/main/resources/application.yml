@@ -7,6 +7,14 @@ spring:
   jpa:
     # 让hibernate打印执行的SQL
     show-sql: true
+  security:
+    user:
+      password:
+  # 开启重试机制
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
 logging:
   level:
     root: INFO
@@ -19,11 +27,18 @@ management:
     web:
       exposure:
         # 暴露metrics端点，如需暴露多个，用,分隔；如需暴露所有端点，用'*'
-        include: '*'
+        include: pause,restart
   endpoint:
     health:
       # 是否展示健康检查详情
       show-details: always
+
+    # 优雅的关掉微服务方式,启用pause端点
+    pause:
+      enabled: true
+    # 启用restart端点，之所以要启用restart端点，是因为pause端点的启用依赖restart端点的启用。
+    restart:
+      enabled: true
 
 
 eureka:
@@ -34,3 +49,13 @@ eureka:
   instance:
     # 是否注册IP到eureka server，如不指定或设为false，那就会注册主机名到eureka server
     prefer-ip-address: true
+
+ribboKn:
+  # 请求超时时间
+  ReadTimeout: 15000
+  ConnectTimeout: 2000
+  # 本地重试次数
+  MaxAutoRetries: 1
+  # 换service重试次数
+  MaxAutoRetriesNextServer: 2
+
