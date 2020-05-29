@@ -15,7 +15,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * Spring Cloud Finchley及更高版本，必须添加如下代码，部分关闭掉Spring Security
  * 的CSRF保护功能，否则应用无法正常注册！
  * ref: http://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html#_securing_the_eureka_server
- * @author zhouli
+ * @author linliquan
  */
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
