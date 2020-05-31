@@ -1,5 +1,5 @@
 server:
-  port: 8041
+  port: 8888
 spring:
   application:
     name: microservice-config-server
@@ -8,8 +8,12 @@ spring:
       server:
         git:
           # Git仓库地址
-          uri: https://git.oschina.net/itmuch/spring-cloud-config-repo.git
+          uri: https://github.com/Linliquan/spring-cloud-config-repo.git
+          # 相对搜索位置，可以配置多个
+          search-paths: config-repo
           # Git仓库账号
-          username:
-          # Git仓库密码
-          password:
+          username: Linliquan
+          # Git仓库密码，使用jce进行对称加密,更改端口需要重新加密
+          # 加密命令：curl http://localhost:8041/encrypt -d 原密码
+          # 解密命令：curl http://localhost:8041/decrypt -d 需要解密的密码
+          password: '{cipher}ee33d5f929fdc07b58421b0b1cdce3ae64673f47b83dc0e1282744b9011d0321'
