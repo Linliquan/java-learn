@@ -1,0 +1,32 @@
+server:
+  port: 8091
+
+
+
+
+#  Spring boot 2.0的改动较大，/bus/refresh全部整合到actuador里面了，
+#  所以之前1.x的management.security.enabled全部失效，不适用于2.0
+#  适用于2.0的配置是这样的：
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh
+#  另外注解
+#
+#  @RefreshScope
+#  需要在配置的页面加上，就是说附带@Value的页面加上此注解
+#
+#  请求刷新的页面由原来1.5.x的localhost:8888/bus/refresh
+#  变成：http://localhost:8888/actuator/bus-refresh
+#
+#  注意：config-server和config-client的配置都得加上
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh
+#  配置
+#  整合被折腾了好几天，实在是大坑
