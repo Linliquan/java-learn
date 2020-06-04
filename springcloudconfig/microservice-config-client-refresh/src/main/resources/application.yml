@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+# 配置刷新三要素：2.暴露/actuator/refresh 端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
