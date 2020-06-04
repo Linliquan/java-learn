@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: microservice-client-refresh    # 对应config server所获取的配置文件的{application}
+  cloud:  
+    config:
+      uri: http://localhost:8080/
+      profile: dev            # profile对应config server所获取的配置文件中的{profile} 
+      label: master           # 指定Git仓库的分支，对应config server所获取的配置文件的{label}
+      name: microservice
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: liquan
+    password: 10086
+
+# 配置刷新三要素：2.暴露/actuator/refresh 端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
