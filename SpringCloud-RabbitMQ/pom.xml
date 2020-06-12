@@ -24,6 +24,7 @@
         <mysql.version>8.0.18</mysql.version>
         <druid.version>1.1.16</druid.version>
         <druid.spring.boot.starter.version>1.1.10</druid.spring.boot.starter.version>
+        <!-- 在 https://dwz.cn/mcLIfNKt 文章中，Spring Cloud Alibaba 开发团队推荐了三者的依赖关系 -->
         <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
         <spring.cloud.version>Hoxton.SR3</spring.cloud.version>
         <spring.cloud.alibaba.version>2.2.1.RELEASE</spring.cloud.alibaba.version>
