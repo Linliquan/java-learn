@@ -7,6 +7,9 @@
     <groupId>com.springcloud.study</groupId>
     <artifactId>SpringCloud-RabbitMQ</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-cloud-rabbitmq-producer-demo</module>
+    </modules>
     <!--使用maven聚合的方式来管理-->
     <packaging>pom</packaging>
 
