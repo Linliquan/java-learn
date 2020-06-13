@@ -9,7 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-cloud-rabbitmq-producer-demo</module>
+        <module>spring-cloud-rabbitmq-consumer-delay</module>
         <module>spring-cloud-rabbitmq-consumer-demo</module>
+        <module>spring-cloud-rabbitmq-producer-delay</module>
     </modules>
     <!--使用maven聚合的方式来管理-->
     <packaging>pom</packaging>
