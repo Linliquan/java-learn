@@ -11,5 +11,19 @@
 	<modules>
 		<module>microservice-discovery-eureka</module>
 		<module>microservice-hystrix-turbine</module>
+		<module>microservice-config-client</module>
+		<module>microservice-config-server</module>
+		<module>microservice-gateway-zuul</module>
+		<module>microservice-gateway-zuul-filter</module>
+		<module>microservice-discovery-eureka-authenticating</module>
+		<module>microservice-simple-provider-user-sleuth-hoxton-sr5</module>
+		<module>microservice-simple-consumer-movie</module>
+		<module>microservice-simple-consumer-movie-feign</module>
+		<module>microservice-simple-consumer-movie-feign-hystrix</module>
+		<module>microservice-simple-consumer-movie-feign-hystrix-common</module>
+		<module>microservice-simple-consumer-ribbon</module>
+		<module>microservice-simple-provider-user</module>
+		<module>microservice-simple-provider-user-sleuth</module>
+		<module>microservice-spring-cloud-stream</module>
 	</modules>
 </project>
