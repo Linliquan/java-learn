@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          # Git仓库地址
+          uri: https://github.com/Linliquan/spring-cloud-config-repo.git
+          search-paths: config-repo
+          # Git仓库账号
+          username: Linliquan
+          # Git仓库密码
+          password: aa10086LL
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: liquan
+    password: 10086
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
