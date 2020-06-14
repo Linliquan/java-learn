@@ -9,8 +9,32 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-cloud-rabbitmq-producer-demo</module>
+        <module>spring-cloud-rabbitmq-producer-actuator</module>
+        <module>spring-cloud-rabbitmq-producer-batch</module>
+        <module>spring-cloud-rabbitmq-producer-batch-consumer</module>
+        <module>spring-cloud-rabbitmq-producer-confirm</module>
+        <module>spring-cloud-rabbitmq-producer-ack</module>
+        <module>spring-cloud-rabbitmq-producer-transaction</module>
+        <module>spring-cloud-rabbitmq-producer-filter</module>
+        <module>spring-cloud-rabbitmq-producer-partitioning</module>
+        <module>spring-cloud-rabbitmq-producer-concurrency</module>
+        <module>spring-cloud-rabbitmq-producer-radio</module>
+        <module>spring-cloud-rabbitmq-producer-error-handler</module>
+        <module>spring-cloud-rabbitmq-producer-retry</module>
         <module>spring-cloud-rabbitmq-consumer-delay</module>
         <module>spring-cloud-rabbitmq-consumer-demo</module>
+        <module>spring-cloud-rabbitmq-consumer-actuator</module>
+        <module>spring-cloud-rabbitmq-consumer-batch-consumer</module>
+        <module>spring-cloud-rabbitmq-consumer-batch</module>
+        <module>spring-cloud-rabbitmq-consumer-confirm-prodecuer</module>
+        <module>spring-cloud-rabbitmq-consumer-ack</module>
+        <module>spring-cloud-rabbitmq-consumer-transaction</module>
+        <module>spring-cloud-rabbitmq-consumer-filter</module>
+        <module>spring-cloud-rabbitmq-consumer-partitioning</module>
+        <module>spring-cloud-rabbitmq-consumer-concurrency</module>
+        <module>spring-cloud-rabbitmq-consumer-radio</module>
+        <module>spring-cloud-rabbitmq-consumer-retry</module>
+        <module>spring-cloud-rabbitmq-consumer-error-handler</module>
         <module>spring-cloud-rabbitmq-producer-delay</module>
     </modules>
     <!--使用maven聚合的方式来管理-->
