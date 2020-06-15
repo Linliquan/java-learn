@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/IO流/IO流.iml" filepath="$PROJECT_DIR$/IO流/IO流.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaTest/JavaTest.iml" filepath="$PROJECT_DIR$/JavaTest/JavaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-learn.iml" filepath="$PROJECT_DIR$/.idea/java-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/内部类/内部类.iml" filepath="$PROJECT_DIR$/内部类/内部类.iml" />
+      <module fileurl="file://$PROJECT_DIR$/反射/反射.iml" filepath="$PROJECT_DIR$/反射/反射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/多线程/多线程.iml" filepath="$PROJECT_DIR$/多线程/多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/排序算法/排序算法.iml" filepath="$PROJECT_DIR$/排序算法/排序算法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/枚举/枚举.iml" filepath="$PROJECT_DIR$/枚举/枚举.iml" />
+      <module fileurl="file://$PROJECT_DIR$/死锁/死锁.iml" filepath="$PROJECT_DIR$/死锁/死锁.iml" />
+      <module fileurl="file://$PROJECT_DIR$/泛型/泛型.iml" filepath="$PROJECT_DIR$/泛型/泛型.iml" />
+      <module fileurl="file://$PROJECT_DIR$/笔试/笔试.iml" filepath="$PROJECT_DIR$/笔试/笔试.iml" />
+      <module fileurl="file://$PROJECT_DIR$/类的实例化顺序/类的实例化顺序.iml" filepath="$PROJECT_DIR$/类的实例化顺序/类的实例化顺序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/设计模式/设计模式.iml" filepath="$PROJECT_DIR$/设计模式/设计模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/集合/集合.iml" filepath="$PROJECT_DIR$/集合/集合.iml" />
     </modules>
   </component>
 </project>
