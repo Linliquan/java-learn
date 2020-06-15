@@ -9,7 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>test</module>
+        <module>microservice-config-server-ali</module>
+        <module>microservice-simple-provider-user-ali</module>
+        <module>microservice-simple-consumer-ribbon-sentinel</module>
     </modules>
 
 
