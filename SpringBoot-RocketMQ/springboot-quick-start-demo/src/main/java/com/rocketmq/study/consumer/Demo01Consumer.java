@@ -1,6 +1,7 @@
 package com.rocketmq.study.consumer;
 
 import com.rocketmq.study.message.Demo01Message;
+import org.apache.rocketmq.spring.annotation.MessageModel;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
 import org.apache.rocketmq.spring.core.RocketMQListener;
 import org.slf4j.Logger;
@@ -16,7 +17,8 @@ import org.springframework.stereotype.Component;
 @Component
 @RocketMQMessageListener(
         topic = Demo01Message.TOPIC,
-        consumerGroup = "demo01-consumer-group-" + Demo01Message.TOPIC
+        consumerGroup = "demo01-consumer-group-" + Demo01Message.TOPIC,
+        messageModel = MessageModel.BROADCASTING
 )
 public class Demo01Consumer implements RocketMQListener<Demo01Message> {
 
