@@ -9,6 +9,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springboot-quick-start-demo</module>
+        <module>springboot-rocketmq-batch</module>
+        <module>springboot-rocketmq-delay</module>
+        <module>springboot-rocketmq-retry</module>
+        <module>springboot-rocketmq-radio</module>
+        <module>springboot-rocketmq-orderly</module>
+        <module>springboot-rocketmq-transaction</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -32,7 +38,7 @@
         <hutool-all.version>5.1.0</hutool-all.version>
     </properties>
 
-    <!-- 子模块继承之后，提供作用：锁定版本 + 子module不用谢groupId和version -->
+    <!-- 子模块继承之后，提供作用：锁定版本 + 子module不用写groupId和version -->
     <dependencyManagement>
         <dependencies>
             <!--spring boot 2.2.5-->
