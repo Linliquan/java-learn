@@ -2,6 +2,7 @@ package com.rocketmq.study.consumer;
 
 import com.rocketmq.study.message.Demo01Message;
 import org.apache.rocketmq.common.message.MessageExt;
+import org.apache.rocketmq.spring.annotation.MessageModel;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
 import org.apache.rocketmq.spring.core.RocketMQListener;
 import org.slf4j.Logger;
@@ -10,14 +11,15 @@ import org.springframework.stereotype.Component;
 
 /**
  * @program: java-learn
- * @description:
+ * @description:  messageModel默认为集群消费，可配置为广播消费
  * @author: liquan
  * @create: 2020-06-16 12:46
  **/
 @Component
 @RocketMQMessageListener(
         topic = Demo01Message.TOPIC,
-        consumerGroup = "demo01-A-consumer-group-" + Demo01Message.TOPIC
+        consumerGroup = "demo01-A-consumer-group-" + Demo01Message.TOPIC,
+        messageModel = MessageModel.BROADCASTING
 )
 public class Demo01AConsumer implements RocketMQListener<MessageExt> {
 
