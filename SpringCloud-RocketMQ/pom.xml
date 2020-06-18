@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-cloud-rocketmq-producer-demo</module>
+        <module>spring-cloud-rocketmq-producer-aliyun</module>
         <module>spring-cloud-rocketmq-producer-actuator</module>
         <module>spring-cloud-rocketmq-producer-transaction</module>
         <module>spring-cloud-rocketmq-producer-filter</module>
@@ -18,6 +19,7 @@
         <module>spring-cloud-rocketmq-producer-retry</module>
         <module>spring-cloud-rocketmq-producer-delay</module>
         <module>spring-cloud-rocketmq-consumer-demo</module>
+        <module>spring-cloud-rocketmq-consumer-aliyun</module>
         <module>spring-cloud-rocketmq-consumer-actuator</module>
         <module>spring-cloud-rocketmq-consumer-transaction</module>
         <module>spring-cloud-rocketmq-consumer-filter</module>
