@@ -37,6 +37,7 @@ public class Demo06Consumer implements RocketMQListener<Demo06Message> {
 //         sleep 2 秒，用于查看顺序消费的效果分隔
 //         sleep 2 秒，用于查看顺序消费的效果分隔
 //         sleep 2 秒，用于查看顺序消费的效果分隔
+//         sleep 2 秒，用于查看顺序消费的效果分隔
         try {
             Thread.sleep(2 * 1000L);
         } catch (InterruptedException ignore) {
