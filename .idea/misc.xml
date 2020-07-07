@@ -3,6 +3,22 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringCloud-RabbitMQ-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-config/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-RabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RocketMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-RocketMQ/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/电话号码归属地判断/out" />
   </component>
