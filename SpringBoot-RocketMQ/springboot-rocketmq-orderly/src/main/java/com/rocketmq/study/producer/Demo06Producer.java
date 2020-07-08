@@ -21,6 +21,7 @@ public class Demo06Producer {
 
     public SendResult syncSendOrderly(Integer id) {
         // 创建 Demo06Message 消息
+        // 创建 Demo06Message 消息
         Demo06Message message = new Demo06Message();
         message.setId(id);
         // 同步发送消息
