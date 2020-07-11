@@ -1,5 +1,6 @@
 package com.springcloud.server.config;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -11,5 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  **/
 @SpringBootApplication
 public class SpringCloudConfigServerAliApplication {
-
+    public static void main(String[] args) {
+        SpringApplication.run(SpringCloudConfigServerAliApplication.class, args);
+    }
 }
