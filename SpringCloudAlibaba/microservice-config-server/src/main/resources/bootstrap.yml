@@ -7,3 +7,5 @@ spring:
         server-addr: 127.0.0.1:8848
         # 指定group
         group: DEFAULT_GROUP
+        # 文件后缀，默认为properties
+        file-extension: properties
