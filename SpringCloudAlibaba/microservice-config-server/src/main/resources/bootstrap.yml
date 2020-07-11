@@ -1,3 +1,6 @@
 spring:
   application:
     name: microservice-foo
+  cloud:
+    nacos:
+      config:
