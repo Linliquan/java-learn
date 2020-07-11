@@ -9,3 +9,5 @@ spring:
         group: DEFAULT_GROUP
         # 文件后缀，默认为properties
         file-extension: properties
+  profiles:
+    active: dev
