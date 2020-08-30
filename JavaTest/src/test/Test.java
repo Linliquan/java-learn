@@ -9,6 +9,15 @@ import java.util.*;
  * @create: 2020-03-07 15:25
  **/
 public class Test {
+
+    public static String getRandom() {
+        String num = "";
+        for (int i = 0; i < 6; i++) {
+            num = num + String.valueOf((int) Math.floor(Math.random() * 10));
+        }
+        return num;
+    }
+
     public static void main(String[] args) {
 
         Date date3 = new Date();
@@ -55,6 +64,11 @@ public class Test {
         if (list.contains(5)){
             System.out.println("哈哈哈哈HHH");
         }
+        System.out.println(Test.getRandom());
+        for (int i = 0; i< 20;i++){
+            System.out.print( (int)(Math.random()*10) +" ");
+        }
+
 
 
 
