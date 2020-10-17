@@ -26,7 +26,9 @@ public class Test {
 
         if (1 != 2){
             System.out.println("阿斯蒂芬");
+            System.out.println("feature 1017");
         }else {
+            System.out.println("feature 1017");
             System.out.println("哈哈 github github");
         }
 
