@@ -24,6 +24,8 @@ public class Test {
         Integer a = 1;
         String b = "0";
 
+        System.out.println("dev test");
+        System.out.println("feature 1017 上线");
         if (1 != 2){
             System.out.println("阿斯蒂芬");
             System.out.println("feature 1017");
