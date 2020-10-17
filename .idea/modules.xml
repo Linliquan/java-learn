@@ -12,6 +12,12 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-RabbitMQ-Test/SpringCloud-RabbitMQ-Test.iml" filepath="$PROJECT_DIR$/SpringCloud-RabbitMQ-Test/SpringCloud-RabbitMQ-Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-RocketMQ/SpringCloud-RocketMQ.iml" filepath="$PROJECT_DIR$/SpringCloud-RocketMQ/SpringCloud-RocketMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba/SpringCloudAlibaba.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba/SpringCloudAlibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-app/cola-springcloud-app.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-app/cola-springcloud-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-client/cola-springcloud-client.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-client/cola-springcloud-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller/cola-springcloud-controller.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller/cola-springcloud-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain/cola-springcloud-domain.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain/cola-springcloud-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/cola-springcloud-infrastructure.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/cola-springcloud-infrastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-learn.iml" filepath="$PROJECT_DIR$/.idea/java-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client/microservice-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/microservice-config-client-2.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/microservice-config-client-2.iml" />
@@ -20,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus/microservice-config-client-refresh-cloud-bus.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus/microservice-config-client-refresh-cloud-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus-kafka/microservice-config-client-refresh-cloud-bus-kafka.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus-kafka/microservice-config-client-refresh-cloud-bus-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server/microservice-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/microservice-config-server (1).iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/microservice-config-server (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-2/microservice-config-server-2.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-server-2/microservice-config-server-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server-ali/microservice-config-server-ali.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server-ali/microservice-config-server-ali.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus/microservice-config-server-bus.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus/microservice-config-server-bus.iml" />
@@ -111,6 +118,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-radio/springboot-rocketmq-radio.iml" filepath="$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-radio/springboot-rocketmq-radio.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-retry/springboot-rocketmq-retry.iml" filepath="$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-retry/springboot-rocketmq-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-transaction/springboot-rocketmq-transaction.iml" filepath="$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-transaction/springboot-rocketmq-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cola-springcloud/start/start.iml" filepath="$PROJECT_DIR$/cola-springcloud/start/start.iml" />
       <module fileurl="file://$PROJECT_DIR$/内部类/内部类.iml" filepath="$PROJECT_DIR$/内部类/内部类.iml" />
       <module fileurl="file://$PROJECT_DIR$/反射/反射.iml" filepath="$PROJECT_DIR$/反射/反射.iml" />
       <module fileurl="file://$PROJECT_DIR$/多线程/多线程.iml" filepath="$PROJECT_DIR$/多线程/多线程.iml" />

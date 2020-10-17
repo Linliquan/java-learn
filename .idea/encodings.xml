@@ -74,7 +74,6 @@
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-radio" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-retry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-transaction" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-quick-start-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-discovery-eureka" charset="UTF-8" />
@@ -91,9 +90,17 @@
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user-sleuth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user-sleuth-hoxton-sr5" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-spring-cloud-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server-ali" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-simple-consumer-ribbon-sentinel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-simple-provider-user-ali" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/start" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh" charset="UTF-8" />
