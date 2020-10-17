@@ -54,6 +54,7 @@ public class Test {
          hashMap.put(null,null);
 
         System.out.println("哈哈");
+        System.out.println("this is feature_1017");
         for (String key: hashMap.keySet()) {
             System.out.println(key + " "+ hashMap.get(key));
         }
