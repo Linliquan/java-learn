@@ -37,6 +37,7 @@ public class Test {
         staffIds.add(67);
         staffIds.add(3);
         staffIds.add(99);
+        staffIds.add(100);
 
         Random random = new Random();
         int n = random.nextInt(staffIds.size());
