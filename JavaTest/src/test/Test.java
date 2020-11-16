@@ -29,8 +29,10 @@ public class Test {
         if (1 != 2){
             System.out.println("阿斯蒂芬");
             System.out.println("feature 1017");
+            System.out.println("feature 1017");
         }else {
             System.out.println("feature 1017");
+            System.out.println("哈哈 github github");
             System.out.println("哈哈 github github");
         }
 
@@ -40,6 +42,7 @@ public class Test {
         staffIds.add(34);
         staffIds.add(67);
         staffIds.add(3);
+        staffIds.add(99);
         staffIds.add(99);
 
         Random random = new Random();
