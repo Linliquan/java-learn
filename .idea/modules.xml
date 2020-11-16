@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IO流/IO流.iml" filepath="$PROJECT_DIR$/IO流/IO流.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java8流式编程/Java8流式编程.iml" filepath="$PROJECT_DIR$/Java8流式编程/Java8流式编程.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTest/JavaTest.iml" filepath="$PROJECT_DIR$/JavaTest/JavaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ.iml" filepath="$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/SpringBoot-RabbitMQ-Demo.iml" filepath="$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/SpringBoot-RabbitMQ-Demo.iml" />
@@ -26,7 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus/microservice-config-client-refresh-cloud-bus.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus/microservice-config-client-refresh-cloud-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus-kafka/microservice-config-client-refresh-cloud-bus-kafka.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus-kafka/microservice-config-client-refresh-cloud-bus-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server/microservice-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/microservice-config-server (1).iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/microservice-config-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server/microservice-config-server (1).iml" filepath="$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server/microservice-config-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/microservice-config-server (2).iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/microservice-config-server (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-2/microservice-config-server-2.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-server-2/microservice-config-server-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server-ali/microservice-config-server-ali.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server-ali/microservice-config-server-ali.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus/microservice-config-server-bus.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus/microservice-config-server-bus.iml" />
@@ -123,7 +125,6 @@
       <module fileurl="file://$PROJECT_DIR$/反射/反射.iml" filepath="$PROJECT_DIR$/反射/反射.iml" />
       <module fileurl="file://$PROJECT_DIR$/多线程/多线程.iml" filepath="$PROJECT_DIR$/多线程/多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/排序算法/排序算法.iml" filepath="$PROJECT_DIR$/排序算法/排序算法.iml" />
-      <module fileurl="file://$PROJECT_DIR$/枚举/枚举.iml" filepath="$PROJECT_DIR$/枚举/枚举.iml" />
       <module fileurl="file://$PROJECT_DIR$/死锁/死锁.iml" filepath="$PROJECT_DIR$/死锁/死锁.iml" />
       <module fileurl="file://$PROJECT_DIR$/泛型/泛型.iml" filepath="$PROJECT_DIR$/泛型/泛型.iml" />
       <module fileurl="file://$PROJECT_DIR$/笔试/笔试.iml" filepath="$PROJECT_DIR$/笔试/笔试.iml" />
