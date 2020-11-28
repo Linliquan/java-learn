@@ -27,7 +27,6 @@ public class Test {
         System.out.println("dev test");
         System.out.println("feature 1017 上线");
         if (1 != 2){
-            System.out.println("阿斯蒂芬");
             System.out.println("feature 1017");
             System.out.println("this is feature_liquan");
             System.out.println("this is feature_liquan 1832");
@@ -44,7 +43,6 @@ public class Test {
         staffIds.add(67);
         staffIds.add(3);
         staffIds.add(99);
-        staffIds.add(100);
 
         Random random = new Random();
         int n = random.nextInt(staffIds.size());

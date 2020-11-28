@@ -1,114 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-batch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-batch-consume" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-batch-consume-02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-batch-consume-retry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-batch-consume-retry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-batch-consume/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-cluster-consume" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-delay/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-delayed-message-exchange" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-delayed-message-exchange/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-direct" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-direct/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-fanout" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-fanout/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-headers" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-headers/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-radio-consume" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ-Demo/springboot-rabbitmq-topic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-quick-start-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-quick-start-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-quick-start-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-batch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-batch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-delay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-delay/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-orderly" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-orderly/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-orderly/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-radio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-radio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-radio/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-retry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-retry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-retry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-rocketmq-transaction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ-Test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ-Test/spring-cloud-rabbitmq-producer-demo-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ-Test/spring-cloud-rabbitmq-producer-demo-test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-ack" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-ack/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-ack/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-batch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-batch-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-batch-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-batch-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-batch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-concurrency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-concurrency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-concurrency/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-confirm-prodecuer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-confirm-prodecuer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-confirm-prodecuer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-delay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-delay/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-error-handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-error-handler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-error-handler/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-filter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-partitioning" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-partitioning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-partitioning/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-radio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-radio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-radio/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-retry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-retry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-retry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-consumer-transaction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-ack" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-ack/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-ack/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-batch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-batch-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-batch-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-batch-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-batch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-concurrency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-concurrency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-concurrency/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-confirm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-confirm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-confirm/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-delay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-delay/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-error-handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-error-handler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-error-handler/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-filter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-partitioning" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-partitioning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-partitioning/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-radio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-radio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-radio/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-retry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-retry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-retry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RabbitMQ/spring-cloud-rabbitmq-producer-transaction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-aliyun" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-aliyun/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-aliyun/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-delay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-delay/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-error-handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-error-handler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-error-handler/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-filter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-orderly" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-orderly/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-orderly/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-radio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-radio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-radio/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-retry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-retry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-retry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-consumer-transaction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-aliyun" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-aliyun/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-aliyun/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-delay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-delay/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-error-handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-error-handler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-error-handler/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-filter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-orderly" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-orderly/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-orderly/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-radio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-radio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-radio/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-retry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-retry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-retry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-transaction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-discovery-eureka-authenticating" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-discovery-eureka-authenticating/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-discovery-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-gateway-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-gateway-zuul-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-gateway-zuul-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-gateway-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-hystrix-turbine/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie-feign-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie-feign-hystrix-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie-feign-hystrix-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie-feign-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-movie/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-consumer-ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user-sleuth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user-sleuth-hoxton-sr5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user-sleuth-hoxton-sr5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user-sleuth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-simple-provider-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-spring-cloud-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-spring-cloud-stream/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server-ali" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server-ali/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-simple-consumer-ribbon-sentinel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-simple-consumer-ribbon-sentinel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-simple-provider-user-ali" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudAlibaba/microservice-simple-provider-user-ali/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cola-springcloud/start/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-bus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh-cloud-bus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-refresh/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/电话号码归属地判断/city.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/电话号码归属地判断/src/CheckPhoneNum.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
