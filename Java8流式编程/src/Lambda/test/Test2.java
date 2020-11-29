@@ -19,6 +19,7 @@ public class Test2 {
         //1.简化参数类型，可以不写参数类型，但是必须所有参数都不写
         NoReturnMultiParam lamdba1 = (a, b) -> {
             System.out.println("简化参数类型");
+            System.out.println("简化参数类型");
         };
         lamdba1.method(1, 2);
 
