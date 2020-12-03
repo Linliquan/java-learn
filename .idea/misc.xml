@@ -16,7 +16,6 @@
         <option value="$PROJECT_DIR$/SpringCloud-RabbitMQ/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-RocketMQ/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-RocketMQ/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloudAlibaba/microservice-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/cola-springcloud/pom.xml" />
       </list>
     </option>
