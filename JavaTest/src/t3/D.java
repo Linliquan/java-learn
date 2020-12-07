@@ -3,11 +3,9 @@ package t3;
 import t1.A;
 
 public class D {
-    public static void main(String[] args) {
+    public static void main(String[] args, Runnable runnable) {
 
-        A a = new A();
-        System.out.println(a.age);
-        System.out.println(a);
+        runnable.run();
 
     }
 }
