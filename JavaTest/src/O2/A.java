@@ -7,6 +7,7 @@ public class A {
     }
     private String show(A a){
         System.out.println("哈哈哈哈");
+        System.out.println("哈哈哈哈");
         return "A and A";
     }
 

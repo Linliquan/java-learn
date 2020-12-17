@@ -20,5 +20,7 @@ protected void f(){
     public static void main(String[] args) {
         A a = new A();
         System.out.println(a.age);
+        User user = new User();
+        System.out.println( user.getStatus() != null && user.getStatus() ? 1 : 0);
     }
 }
