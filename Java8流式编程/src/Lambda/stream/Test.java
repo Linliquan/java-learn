@@ -31,6 +31,7 @@ public class Test {
         /**
          * 各种骚操作
          */
+        // 1 过滤
         // 1.1 filter 过滤
         List<Student> filterList = studentList.stream().filter(student -> "武汉大学".equals(student.getSchool())).collect(Collectors.toList());
         filterList.forEach(System.out::println);
@@ -56,7 +57,13 @@ public class Test {
         skipList.forEach(System.out::println);
         System.out.println();
 
+        // 2 映射 在SQL中，借助SELECT关键字后面添加需要的字段名称，可以仅输出我们需要的字段数据，而流式处理的映射操作也是实现这一目的，
+        // 在java8的流式处理中，主要包含两类映射操作：map和flatMap。
 
+        // 2.1 map ，假设我们希望筛选出所有专业为计算机科学的学生姓名，那么我们可以在filter筛选的基础之上，通过map将学生实体映射成为学生姓名字符串
+        List<String> nameList = studentList.stream().filter(student -> "计算机科学".equals(student.getMajor())).map(Student::getName).collect(Collectors.toList());
+        nameList.forEach(System.out::println);
+        System.out.println();
 
     }
 }
