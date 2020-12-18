@@ -115,6 +115,15 @@ public class Test {
         System.out.println(any);
         System.out.println();
 
+        // 3.6 reduce 归约
+        Integer ageReduce = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getAge).reduce(0, (a, b) -> a + b);
+        System.out.println(ageReduce);
+        System.out.println();
+
+        Integer ageReduce2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getAge).reduce(0, Integer::sum);
+        System.out.println(ageReduce2);
+        System.out.println();
+
 
     }
 }
