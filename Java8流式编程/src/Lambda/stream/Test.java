@@ -148,9 +148,17 @@ public class Test {
         double avgAge = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.averagingInt(Student::getAge));
         System.out.println(avgAge);
 
+        // 4.6 一次性得到年龄的个数、总和、均值、最大值、最小值
+        IntSummaryStatistics summaryStatistics = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.summarizingInt(Student::getAge));
+        System.out.println(summaryStatistics);
 
+        // 4.7 字符串拼接
+        String name = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getName).collect(Collectors.joining());
+        System.out.println(name);
 
-
+        // 4.8 字符串拼接, 逗号分隔
+        String name2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getName).collect(Collectors.joining(","));
+        System.out.println(name2);
 
     }
 }
