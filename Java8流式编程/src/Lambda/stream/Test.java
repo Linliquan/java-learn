@@ -14,7 +14,7 @@ public class Test {
         List<Student> studentList = new ArrayList<Student>() {
             {
                 add(new Student(20160001, "孔明", 20, 1, "土木工程", "武汉大学"));
-                add(new Student(20160002, "伯约", 21, 2, "信息安全", "武汉大学"));
+                add(new Student(20160001, "伯约", 21, 2, "信息安全", "武汉大学"));
                 add(new Student(20160003, "玄德", 22, 3, "经济管理", "武汉大学"));
                 add(new Student(20160004, "云长", 21, 2, "信息安全", "武汉大学"));
                 add(new Student(20161001, "翼德", 21, 2, "机械与自动化", "华中科技大学"));
@@ -159,6 +159,20 @@ public class Test {
         // 4.8 字符串拼接, 逗号分隔
         String name2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getName).collect(Collectors.joining(","));
         System.out.println(name2);
+
+        // 5 分组
+        // 5.1 groupingBy
+        Map<String, List<Student>> listMap = studentList.stream().collect(Collectors.groupingBy(Student::getMajor));
+        for (Map.Entry<String, List<Student>> entry : listMap.entrySet()) {
+            System.out.println(entry.getKey() + " "+ entry.getValue());
+        }
+
+        // 5.2 多级分组
+        System.out.println("多级分组");
+        Map<String, List<Student>> groupingByMap = studentList.stream().sorted(Comparator.comparing(Student::getAge).reversed()).collect(Collectors.groupingBy(Student::getMajor));
+        for (Map.Entry<String, List<Student>> stringListEntry : groupingByMap.entrySet()) {
+            System.out.println(stringListEntry);
+        }
 
     }
 }
