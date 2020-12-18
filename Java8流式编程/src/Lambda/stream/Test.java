@@ -1,9 +1,6 @@
 package Lambda.stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -21,7 +18,7 @@ public class Test {
                 add(new Student(20160003, "玄德", 22, 3, "经济管理", "武汉大学"));
                 add(new Student(20160004, "云长", 21, 2, "信息安全", "武汉大学"));
                 add(new Student(20161001, "翼德", 21, 2, "机械与自动化", "华中科技大学"));
-                add(new Student(20161002, "元直", 23, 4, "土木工程", "华中科技大学"));
+                add(new Student(20161002, "元直", 20, 4, "土木工程", "华中科技大学"));
                 add(new Student(20161003, "奉孝", 23, 4, "计算机科学", "华中科技大学"));
                 add(new Student(20162001, "仲谋", 18, 3, "土木工程", "浙江大学"));
                 add(new Student(20162002, "鲁肃", 23, 4, "计算机科学", "浙江大学"));
@@ -88,7 +85,35 @@ public class Test {
         List<String> distinctStr = Arrays.stream(strs).map(s -> s.split("")).flatMap(Arrays::stream).distinct().collect(Collectors.toList());
         System.out.println();
         distinctStr.forEach(s -> System.out.print(s));
+        System.out.println();
 
+        List<Student> collect = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.toList());
+        collect.forEach(System.out::println);
+        System.out.println();
+
+        // 3 终端操作
+        // 3.1 allMatch 全部匹配
+        boolean allMatch = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).limit(2)
+                .allMatch(student -> student.getAge() == 20);
+        System.out.println(allMatch);
+
+        // 3.2 anyMatch 一个或多个满足
+        boolean ageIs18 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).anyMatch(student -> student.getAge() == 18);
+        System.out.println(ageIs18);
+
+        // 3.3 noneMathch 不存在，不满足
+        boolean noneMatch = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).noneMatch(student -> student.getAge() == 18);
+        System.out.println(noneMatch);
+
+        // 3.4 findFirst 返回满足的第一个
+        Optional<Student> first = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).findFirst();
+        System.out.println(first);
+        System.out.println();
+
+        // 3.5 findAny 返回任意一个
+        Optional<Student> any = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).findAny();
+        System.out.println(any);
+        System.out.println();
 
 
     }
