@@ -124,6 +124,33 @@ public class Test {
         System.out.println(ageReduce2);
         System.out.println();
 
+        // 4 收集
+        // 4.1 归约 求学生的总人数
+        Long studentCount = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).count();
+        System.out.println(studentCount);
+
+        // 4.2 求年龄的最大值和最小值
+        Optional<Student> ageMax = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.maxBy(Comparator.comparing(Student::getAge)));
+        System.out.println(ageMax);
+
+        // 4.3 求最小年龄
+        Optional<Student> ageMax2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).min(Comparator.comparing(Student::getAge));
+        System.out.println(ageMax2);
+
+        // 4.4 求年龄总和
+        Integer ageTotal = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.summingInt(Student::getAge));
+        System.out.println(ageTotal);
+
+        Integer ageTotal2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).mapToInt(Student::getAge).sum();
+        System.out.println(ageTotal2);
+
+        // 4.5 求年龄的平均值
+        double avgAge = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.averagingInt(Student::getAge));
+        System.out.println(avgAge);
+
+
+
+
 
     }
 }
