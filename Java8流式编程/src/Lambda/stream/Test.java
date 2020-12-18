@@ -1,6 +1,7 @@
 package Lambda.stream;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -62,8 +63,33 @@ public class Test {
 
         // 2.1 map ，假设我们希望筛选出所有专业为计算机科学的学生姓名，那么我们可以在filter筛选的基础之上，通过map将学生实体映射成为学生姓名字符串
         List<String> nameList = studentList.stream().filter(student -> "计算机科学".equals(student.getMajor())).map(Student::getName).collect(Collectors.toList());
-        nameList.forEach(System.out::println);
+        nameList.forEach(e -> {
+            System.out.println(e);
+        });
         System.out.println();
+
+        // 计算所有专业为计算机科学学生的年龄之和
+        int ageSum = studentList.stream().filter(student -> "计算机科学".equals(student.getMajor())).mapToInt(Student::getAge).sum();
+        System.out.println(ageSum);
+        System.out.println();
+
+        // flatMap flatMap与map的区别在于 flatMap是将一个流中的每个值都转成一个个流，然后再将这些流扁平化成为一个流
+        // 假设我们有一个字符串数组String[] strs = {"java8", "is", "easy", "to", "use"};，我们希望输出构成这一数组的所有非重复字符，
+        // 那么我们可能首先会想到如下实现：
+        String[] strs = {"java8", "is", "easy", "to", "use"};
+        List<String[]> stringsList = Arrays.stream(strs).map(str -> str.split("")).collect(Collectors.toList());
+        stringsList.forEach(strings -> {
+            for (int i = 0; i < strings.length; i++) {
+                System.out.print(strings[i] + " ");
+            }
+            System.out.println();
+        });
+
+        List<String> distinctStr = Arrays.stream(strs).map(s -> s.split("")).flatMap(Arrays::stream).distinct().collect(Collectors.toList());
+        System.out.println();
+        distinctStr.forEach(s -> System.out.print(s));
+
+
 
     }
 }
