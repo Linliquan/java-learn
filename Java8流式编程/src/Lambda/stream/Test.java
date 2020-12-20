@@ -19,9 +19,9 @@ public class Test {
                 add(new Student(20160004, "云长", 21, 2, "信息安全", "武汉大学"));
                 add(new Student(20161001, "翼德", 21, 2, "机械与自动化", "华中科技大学"));
                 add(new Student(20161002, "元直", 20, 4, "土木工程", "华中科技大学"));
-                add(new Student(20161003, "奉孝", 23, 4, "计算机科学", "华中科技大学"));
+                add(new Student(20162003, "奉孝", 23, 4, "计算机科学", "华中科技大学"));
                 add(new Student(20162001, "仲谋", 18, 3, "土木工程", "浙江大学"));
-                add(new Student(20162002, "鲁肃", 23, 4, "计算机科学", "浙江大学"));
+                add(new Student(20162002, "鲁肃", 23, 1, "计算机科学", "浙江大学"));
                 add(new Student(20163001, "丁奉", 24, 5, "土木工程", "南京大学"));
             }
         };
@@ -170,9 +170,28 @@ public class Test {
         // 5.2 多级分组
         System.out.println("多级分组");
         Map<String, List<Student>> groupingByMap = studentList.stream().sorted(Comparator.comparing(Student::getAge).reversed()).collect(Collectors.groupingBy(Student::getMajor));
-        for (Map.Entry<String, List<Student>> stringListEntry : groupingByMap.entrySet()) {
+        for (Map.Entry<String, List<Student>> listEntry : groupingByMap.entrySet()) {
+            System.out.println(listEntry);
+        }
+
+        // 5.3 先按专业分组，再按年龄排序
+        System.out.println();
+        Map<Integer, List<Student>> gradeGroupingByMap = studentList.stream().sorted(Comparator.comparing(Student::getAge)).collect(Collectors.groupingBy(Student::getGrade));
+        for (Map.Entry<Integer, List<Student>> stringListEntry : gradeGroupingByMap.entrySet()) {
             System.out.println(stringListEntry);
         }
+
+        // 5.4 先按年龄排序升降序，然后再按年级升序
+        System.out.println("先按年龄排序升降序，然后再按年级升序");
+        List<Student> ageAndgradeList = studentList.stream().sorted(Comparator.comparing(Student::getAge).reversed().thenComparing(Student::getGrade)).collect(Collectors.toList());
+        ageAndgradeList.forEach(System.out::println);
+        System.out.println();
+
+        // 5.5 先按年龄排序升序，然后再按年级降序
+        System.out.println("先按年龄排序升序，然后再按年级降序");
+        List<Student> list = studentList.stream().sorted(Comparator.comparing(Student::getAge).thenComparing(Student::getGrade,Comparator.reverseOrder())).collect(Collectors.toList());
+        list.forEach(System.out::println);
+        System.out.println();
 
     }
 }

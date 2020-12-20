@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Socket/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Spring/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java8流式编程/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
