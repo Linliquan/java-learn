@@ -30,17 +30,17 @@ public class Test {
          * 各种骚操作
          */
         // 1 过滤
-        // 1.1 filter 过滤
+        // 1.1 filter 过滤 ,筛选出学校为武汉大学的数据
         List<Student> filterList = studentList.stream().filter(student -> "武汉大学".equals(student.getSchool())).collect(Collectors.toList());
         filterList.forEach(System.out::println);
         System.out.println();
 
-        // 1.2 distinct 去重
+        // 1.2 distinct 去重，筛选出年级为偶数的数据
         List<Student> ageList = studentList.stream().filter(student -> student.getAge() % 2 == 0).distinct().collect(Collectors.toList());
         ageList.forEach(System.out::println);
         System.out.println();
 
-        // 1.3 limit
+        // 1.3 limit，查询结果中，返回前两条数据
         List<Student> limitList = studentList.stream().filter(student -> student.getAge() % 2 == 0).distinct().limit(2).collect(Collectors.toList());
         limitList.forEach(System.out::println);
         System.out.println();
@@ -50,7 +50,7 @@ public class Test {
         sortedList.forEach(System.out::println);
         System.out.println();
 
-        // 1.5 skip 跳过 skip操作与limit操作相反，如同其字面意思一样，是跳过前n个元素
+        // 1.5 skip 跳过 skip操作与limit操作相反，如同其字面意思一样，是跳过前n个元素。跳过前面两条数据。
         List<Student> skipList = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).sorted(Comparator.comparingInt(Student::getAge).reversed()).limit(2).collect(Collectors.toList());
         skipList.forEach(System.out::println);
         System.out.println();
@@ -82,26 +82,28 @@ public class Test {
             System.out.println();
         });
 
+        // 正确的实现
         List<String> distinctStr = Arrays.stream(strs).map(s -> s.split("")).flatMap(Arrays::stream).distinct().collect(Collectors.toList());
         System.out.println();
         distinctStr.forEach(s -> System.out.print(s));
         System.out.println();
 
+        // 筛选出专业为土木工程的数据
         List<Student> collect = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.toList());
         collect.forEach(System.out::println);
         System.out.println();
 
         // 3 终端操作
-        // 3.1 allMatch 全部匹配
+        // 3.1 allMatch 全部匹配，专业为土木工程，且年龄为20
         boolean allMatch = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).limit(2)
                 .allMatch(student -> student.getAge() == 20);
         System.out.println(allMatch);
 
-        // 3.2 anyMatch 一个或多个满足
+        // 3.2 anyMatch 一个或多个满足。是否存在专业为土木工程，且其中一个或多个年龄为18
         boolean ageIs18 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).anyMatch(student -> student.getAge() == 18);
         System.out.println(ageIs18);
 
-        // 3.3 noneMathch 不存在，不满足
+        // 3.3 noneMathch 不存在，不满足。专业为土木工程，且其中不存在年龄为18
         boolean noneMatch = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).noneMatch(student -> student.getAge() == 18);
         System.out.println(noneMatch);
 
@@ -115,11 +117,12 @@ public class Test {
         System.out.println(any);
         System.out.println();
 
-        // 3.6 reduce 归约
+        // 3.6 reduce 归约，计算年龄之和
         Integer ageReduce = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getAge).reduce(0, (a, b) -> a + b);
         System.out.println(ageReduce);
         System.out.println();
 
+        // 计算年龄之和
         Integer ageReduce2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getAge).reduce(0, Integer::sum);
         System.out.println(ageReduce2);
         System.out.println();
@@ -129,18 +132,19 @@ public class Test {
         Long studentCount = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).count();
         System.out.println(studentCount);
 
-        // 4.2 求年龄的最大值和最小值
+        // 4.2 求年龄的最大值，法一
         Optional<Student> ageMax = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.maxBy(Comparator.comparing(Student::getAge)));
         System.out.println(ageMax);
 
-        // 4.3 求最小年龄
+        // 4.3 求最小年龄，法二
         Optional<Student> ageMax2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).min(Comparator.comparing(Student::getAge));
         System.out.println(ageMax2);
 
-        // 4.4 求年龄总和
+        // 4.4 求年龄总和，法一
         Integer ageTotal = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.summingInt(Student::getAge));
         System.out.println(ageTotal);
 
+        // 求年龄总和，法二
         Integer ageTotal2 = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).mapToInt(Student::getAge).sum();
         System.out.println(ageTotal2);
 
@@ -161,13 +165,13 @@ public class Test {
         System.out.println(name2);
 
         // 5 分组
-        // 5.1 groupingBy
+        // 5.1 groupingBy，按专业进行分组
         Map<String, List<Student>> listMap = studentList.stream().collect(Collectors.groupingBy(Student::getMajor));
         for (Map.Entry<String, List<Student>> entry : listMap.entrySet()) {
             System.out.println(entry.getKey() + " "+ entry.getValue());
         }
 
-        // 5.2 多级分组
+        // 5.2 多级分组，按专业进行分组，再按年龄进行降序
         System.out.println("多级分组");
         Map<String, List<Student>> groupingByMap = studentList.stream().sorted(Comparator.comparing(Student::getAge).reversed()).collect(Collectors.groupingBy(Student::getMajor));
         for (Map.Entry<String, List<Student>> listEntry : groupingByMap.entrySet()) {
