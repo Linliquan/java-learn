@@ -1,7 +1,9 @@
 package Lambda.stream;
 
 import java.util.*;
+import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author linliquan
@@ -197,10 +199,17 @@ public class Test {
         list.forEach(System.out::println);
         System.out.println();
 
-        // 5.3 实现sql查询，如 select name from student where age <= 20 and major = '土木工程' order by age, grade desc;
+        // 6.1 实现sql查询，如 select name from student where age <= 20 and major = '土木工程' order by age, grade desc;
         List<Student> studentNameList = studentList.stream().filter(student -> student.getAge() <= 20).filter(student -> "土木工程".equals(student.getMajor()))
                 .sorted(Comparator.comparingInt(Student::getAge).thenComparing(Student::getGrade).reversed()).collect(Collectors.toList());
         studentNameList.forEach(System.out::println);
+        System.out.println();
+
+        // 6.2 toMap 查询专业为土木工程的学生姓名和学校
+        Map<String, String> stringMap = studentList.stream().filter(student -> "土木工程".equals(student.getMajor())).collect(Collectors.toMap(Student::getName, Student::getSchool));
+        for (String key : stringMap.keySet()) {
+            System.out.println(key +" " +stringMap.get(key));
+        }
 
 
     }
