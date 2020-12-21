@@ -23,6 +23,9 @@ public class Student {
     /** 学校 */
     private String school;
 
+    public Student(){
+    }
+
     public Student(long id,String name, int age, int grade, String major, String school){
         this.id = id;
         this.name = name;

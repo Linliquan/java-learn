@@ -197,5 +197,11 @@ public class Test {
         list.forEach(System.out::println);
         System.out.println();
 
+        // 5.3 实现sql查询，如 select name from student where age <= 20 and major = '土木工程' order by age, grade desc;
+        List<Student> studentNameList = studentList.stream().filter(student -> student.getAge() <= 20).filter(student -> "土木工程".equals(student.getMajor()))
+                .sorted(Comparator.comparingInt(Student::getAge).thenComparing(Student::getGrade).reversed()).collect(Collectors.toList());
+        studentNameList.forEach(System.out::println);
+
+
     }
 }

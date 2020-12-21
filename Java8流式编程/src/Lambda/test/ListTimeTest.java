@@ -1,7 +1,11 @@
 package Lambda.test;
 
+import Lambda.stream.Student;
+
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 /**
@@ -15,6 +19,14 @@ public class ListTimeTest {
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
             list.add(i);
+        }
+        List<Student> studentList = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+            Student student = new Student();
+            student.setAge(i);
+            student.setId(i);
+            student.setName("a"+i);
+            studentList.add(student);
         }
 
         // for循环
@@ -46,6 +58,20 @@ public class ListTimeTest {
         System.out.println("forEach遍历执行时间："+(endTimeMillis3 - timeMillis3) + "ms");
 
         // 执行结果，数据量在1000 - 1000000之间内，执行时间：for增强 < for循环 < forEach遍历
+
+        // comparingInt 和 comparing 执行时间比较。结果：comparingInt 执行时间小于 comparing，comparingInt比较好
+        long start = System.currentTimeMillis();
+        System.out.println("studentNameList2");
+        List<Student> studentNameList2 = studentList.stream().sorted(Comparator.comparingInt(Student::getAge).reversed()).collect(Collectors.toList());
+        long end = System.currentTimeMillis();
+        System.out.println(end - start +"ms");
+
+        // 5.4
+        long start2 = System.currentTimeMillis();
+        System.out.println("studentNameList3");
+        List<Student> studentNameList3 = studentList.stream().sorted(Comparator.comparing(Student::getAge).reversed()).collect(Collectors.toList());
+        long end2 = System.currentTimeMillis();
+        System.out.println(end2 - start2 +"ms");
 
     }
 
