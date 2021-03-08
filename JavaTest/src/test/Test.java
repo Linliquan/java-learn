@@ -30,6 +30,7 @@ public class Test {
             System.out.println("feature 1017");
             System.out.println("this is feature_liquan");
             System.out.println("this is feature_liquan 1832");
+            System.out.println("this is feature_liquan 1891");
             System.out.println("this is feature_liquan 分支上线了");
         }else {
             System.out.println("feature 1017");
