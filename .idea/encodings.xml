@@ -271,6 +271,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-server-bus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-0425/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-config/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
