@@ -19,7 +19,6 @@
       <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller/cola-springcloud-controller.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller/cola-springcloud-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain/cola-springcloud-domain.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain/cola-springcloud-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/cola-springcloud-infrastructure.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/cola-springcloud-infrastructure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-common/java-common.iml" filepath="$PROJECT_DIR$/java-common/java-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-learn.iml" filepath="$PROJECT_DIR$/.idea/java-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client/microservice-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/microservice-config-client-2.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/microservice-config-client-2.iml" />
@@ -100,7 +99,6 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-retry/spring-cloud-rocketmq-producer-retry.iml" filepath="$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-retry/spring-cloud-rocketmq-producer-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-transaction/spring-cloud-rocketmq-producer-transaction.iml" filepath="$PROJECT_DIR$/SpringCloud-RocketMQ/spring-cloud-rocketmq-producer-transaction/spring-cloud-rocketmq-producer-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/spring-cloud-study.iml" filepath="$PROJECT_DIR$/SpringCloud/spring-cloud-study/spring-cloud-study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-0425/springboot-0425.iml" filepath="$PROJECT_DIR$/springboot-0425/springboot-0425.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-config/springboot-config.iml" filepath="$PROJECT_DIR$/springboot-config/springboot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-quick-start-demo/springboot-quick-start-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-RocketMQ/springboot-quick-start-demo/springboot-quick-start-demo.iml" />
