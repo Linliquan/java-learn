@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller/cola-springcloud-controller.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-controller/cola-springcloud-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain/cola-springcloud-domain.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-domain/cola-springcloud-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/cola-springcloud-infrastructure.iml" filepath="$PROJECT_DIR$/cola-springcloud/cola-springcloud-infrastructure/cola-springcloud-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-common/java-common.iml" filepath="$PROJECT_DIR$/java-common/java-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-learn.iml" filepath="$PROJECT_DIR$/.idea/java-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/SpringCloud/spring-cloud-study/microservice-config-client/microservice-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/microservice-config-client-2.iml" filepath="$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/microservice-config-client-2.iml" />

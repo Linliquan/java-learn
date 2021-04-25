@@ -9,10 +9,20 @@ package Lambda.test;
 import Lambda.interfaces.ReturnNoParam;
 import Lambda.interfaces.ReturnOneParam;
 
+import java.math.BigDecimal;
+
 /**
  * lambda 表达式引用方法
  */
 public class Exe1 {
+
+    public static String bigDecimal2String(BigDecimal b) {
+        if (b == null || BigDecimal.ZERO.compareTo(b) == 0) {
+            return "0";
+        } else {
+            return b.stripTrailingZeros().toPlainString();
+        }
+    }
 
     /**
      * 引用方法：
@@ -32,6 +42,17 @@ public class Exe1 {
         ReturnOneParam lambda3 = exe1::addTwo;
         System.out.println(lambda3.method(2));
         System.out.println(lambda3.method(2));
+
+        String a = "123456";
+        System.out.println("长度："+a.length());
+
+        BigDecimal b1 = new BigDecimal("4.45964");
+        BigDecimal b2 = new BigDecimal("4.41564");
+        System.out.println(b1.subtract(b2));
+
+        String s = Exe1.bigDecimal2String(b1);
+        System.out.println(s);
+
 
     }
 
