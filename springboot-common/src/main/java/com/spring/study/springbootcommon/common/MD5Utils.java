@@ -64,5 +64,10 @@ public class MD5Utils {
         // 方式二: 使用springboot自带的MD5加密封装类DigestUtils
         String pwd = DigestUtils.md5DigestAsHex("abc123ABC".getBytes());
         System.out.println("pwd：" + pwd.toUpperCase());
+
+//        // 方式三：直接引入org.apache.commons.codec.digest.DigestUtils
+//        String password2 = DigestUtils.md5Hex("abc123ABC").toUpperCase();
+//        System.out.println(password2);
+
     }
 }
