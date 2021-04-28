@@ -10,6 +10,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Spring/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Test/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java8流式编程/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/springboot-easyexcel/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/springboot-easyexcel/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/springboot-easyexcel/src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

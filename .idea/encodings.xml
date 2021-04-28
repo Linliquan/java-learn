@@ -257,6 +257,7 @@
     <file url="file://$PROJECT_DIR$/cola-springcloud/start" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cola-springcloud/start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easyexcel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/microservice-config-client-bus" charset="UTF-8" />
@@ -274,6 +275,7 @@
     <file url="file://$PROJECT_DIR$/springboot-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-easyexcel/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

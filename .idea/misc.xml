@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/cola-springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/../../IdeaProjects/工具类/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-common/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-easyexcel/pom.xml" />
+        <option value="$PROJECT_DIR$/easyexcel/pom.xml" />
       </list>
     </option>
   </component>
