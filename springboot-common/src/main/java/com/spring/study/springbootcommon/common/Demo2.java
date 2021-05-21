@@ -26,6 +26,7 @@ public class Demo2<T> {
         Demo2<Integer> demo3 = new Demo2<>();
         Integer num = demo3.getList(nums);
         System.out.println(num);
+        System.out.println(s);
 
     }
 
