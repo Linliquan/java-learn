@@ -1,5 +1,6 @@
 package com.spring.study.springbootcommon.common;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,6 +19,7 @@ public class Demo2<T> {
         list.add("bb");
         String s = demo2.getList(list);
         System.out.println(s);
+        list.forEach(System.out::println);
 
         List<Integer> nums = new ArrayList<>();
         nums.add(1);
