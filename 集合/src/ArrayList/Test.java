@@ -1,8 +1,11 @@
 package ArrayList;
 
+import com.sun.javafx.scene.control.skin.VirtualFlow;
+
 import javax.swing.text.html.HTMLDocument;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Test {
@@ -12,6 +15,7 @@ public class Test {
         list.add("aa");
         list.add("bb");
         list.add("cc");
+        LinkedList<Object> linkedList = new LinkedList<>();
 
         list.remove(2);
         list.set(1,"kk"); //修改数据

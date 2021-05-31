@@ -1,5 +1,7 @@
 package HashSet;
 
+import java.util.Objects;
+
 public class Student {
     private int id;
     private String name;
@@ -9,12 +11,15 @@ public class Student {
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return id;
     }
 
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+        if (obj instanceof Student) {
+            return id == ((Student) obj).id && name.equals(((Student) obj).name);
+        }
+        return false;
     }
 
     public Student(int id, String name) {
