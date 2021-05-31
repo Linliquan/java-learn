@@ -3,6 +3,8 @@ HELP.md
 /target/
 /**/target/
 /**/resources/rebel.xml
+.flattened-pom.xml
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
