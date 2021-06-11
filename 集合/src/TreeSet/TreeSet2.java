@@ -19,10 +19,6 @@ public class TreeSet2 {
             stu2.setName("hey");
             treeSet.add(stu);
             treeSet.add(stu2);
-            Student stu3 = new Student();
-            stu3.setId(2);
-            stu3.setName("hey");
-            treeSet.add(stu3);
 
             for (Student student : treeSet) {
                 System.out.println(student);
