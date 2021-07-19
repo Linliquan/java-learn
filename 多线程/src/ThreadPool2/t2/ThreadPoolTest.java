@@ -10,16 +10,23 @@ public class ThreadPoolTest {
         //创建线程池
        // ExecutorService service = Executors.newFixedThreadPool(10);
         ThreadPoolExecutor poolExecutor =
-                new ThreadPoolExecutor(5,10,
-                        0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue<>(1024));
+                new ThreadPoolExecutor(5,5,
+                        0L, TimeUnit.MILLISECONDS,new LinkedBlockingQueue<>(1024), Executors.defaultThreadFactory(),new ThreadPoolExecutor.CallerRunsPolicy());
 
         ThreadPool threadPool = new ThreadPool();
 
         //分配任务
-        for (int i = 0; i < 10; i++) {
-            poolExecutor.submit(threadPool);
-            System.out.println();
-        }
+//        for (int i = 0; i < 1000; i++) {
+//            poolExecutor.submit(threadPool);
+            poolExecutor.execute(()->{
+                for (int i = 0; i < 100000; i++) {
+                    System.out.println("哈哈哈 " + Thread.currentThread().getName()+ " " + i);
+                }
+
+            });
+
+//            System.out.println("-------" + "第" + i + "次");
+//        }
         poolExecutor.shutdown();
     }
 }
