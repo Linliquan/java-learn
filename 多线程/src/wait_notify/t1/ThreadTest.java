@@ -30,15 +30,11 @@ public class ThreadTest{
                 synchronized (lock){
                     lock.notify();
                     System.out.println(Thread.currentThread().getName()+" "+i);
-                    if(i < 100){
-                        try {
-                            lock.wait();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
+                    try {
+                        lock.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
                     }
-
-
                 }
             }
 
