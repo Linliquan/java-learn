@@ -32,11 +32,11 @@ public class UserController {
      */
     @GetMapping("/downloadTemplate")
     public void downloadTemplate(HttpServletResponse response) throws Exception {
-        ClassPathResource classPathResource = new ClassPathResource("excelTemplate/easyexcel.xls");
+        ClassPathResource classPathResource = new ClassPathResource("excelTemplate/物美报货单模板.xls");
         InputStream inputStream = classPathResource.getInputStream();
         Workbook workbook = new HSSFWorkbook(inputStream);
         response.setContentType("application/vnd.ms-excel");
-        response.setHeader("content-Disposition", "attachment;filename=" + URLEncoder.encode("easyexcel.xls", "utf-8"));
+        response.setHeader("content-Disposition", "attachment;filename=" + URLEncoder.encode("物美报货单模板.xls", "utf-8"));
         response.setHeader("Access-Control-Expose-Headers", "content-Disposition");
         OutputStream outputStream = response.getOutputStream();
         workbook.write(outputStream);
